@@ -24,8 +24,8 @@ return {
     blurSpecialWs              = false,
     blurPopups                 = true,
     blurInputMethods           = true,
-    blurSize                   = 7,
-    blurPasses                 = 2,
+    blurSize                   = 9,
+    blurPasses                 = 3,
     blurXray                   = false,
 
     -- Shadow
@@ -36,12 +36,12 @@ return {
 
     -- Gaps
     workspaceGaps              = 20,
-    windowGapsIn               = 5,
-    windowGapsOut              = 10,
-    singleWindowGapsOut        = 10,
+    windowGapsIn               = 3,
+    windowGapsOut              = 7,
+    singleWindowGapsOut        = 7,
 
     -- Window styling
-    windowOpacity              = 0.90,
+    windowOpacity              = 0.85,
     windowRounding             = 15,
     windowRoundingPower        = 2,
     windowBorderSize           = 1,
@@ -93,13 +93,13 @@ return {
     kbWindowIncreaseHeight     = { "SUPER + SHIFT + Equal", "SUPER + ALT + Down" },
 
     kbMoveWindow               = "SUPER + Z",
-    kbResizeWindow             = "SUPER + X",
+    kbResizeWindow             = "SUPER + W",
     kbCenterWindow             = "CTRL + SUPER + Backslash",
     kbNormalizeWindow          = "CTRL + SUPER + ALT + Backslash",
     kbWindowPip                = "SUPER + ALT + Backslash",
     kbPinWindow                = "SUPER + P",
     kbWindowFullscreen         = "SUPER + F",
-    kbWindowBorderedFullscreen = "SUPER + ALT + F",
+    kbWindowBorderedFullscreen = "SUPER + CTRL + F",
     kbToggleWindowFloating     = "SUPER + ALT + Space",
     kbCloseWindow              = "SUPER + Q",
 

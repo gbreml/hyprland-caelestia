@@ -3,7 +3,7 @@ local vars = require("variables")
 hl.config({
     input = {
         kb_layout          = "br",
-        kb_variant         = "abnt2", 
+        kb_variant         = "abnt2",
         numlock_by_default = false,
         repeat_delay       = 250,
         repeat_rate        = 35,

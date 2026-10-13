@@ -74,6 +74,3 @@ require("hyprland.keybinds")
 -- User configs
 maybe_create(home .. "/.config/caelestia/hypr-user.lua")
 require("hypr-user")
-
--- HyprMod managed settings
-require("hyprland-gui")
