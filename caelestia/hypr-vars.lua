@@ -1,4 +1,4 @@
 return {
-    cursorTheme = "Bibata-Modern-Ice",
-    cursorSize = 17,
+    cursorTheme = "Bibata-Original-Ice",
+    cursorSize = 20,
 }

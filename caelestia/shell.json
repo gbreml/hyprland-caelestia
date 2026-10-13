@@ -1,7 +1,10 @@
 {
     "appearance": {
         "transparency": {
-            "enabled": true
+            "enabled": true,
+            "base": 0.65,
+            "layers": 0.25
+
         }
     },
     "bar": {
@@ -12,11 +15,10 @@
         },
         "clock": {
             "background": true,
-            "showDate": true,
-            "showSeconds": false
+            "showDate": true
         },
-        "scrollActions": {
-            "workspaces": true
+        "popouts": {
+            "activeWindow": true
         },
         "statusIcons": [
             {
@@ -47,11 +49,15 @@
                 "enabled": false,
                 "id": "battery"
             }
+            
         ],
         "tray": {
             "background": false,
             "compact": true,
             "recolour": true
+        },
+        "workspaces": {
+            "shown": 5
         }
     },
     "general": {
@@ -59,6 +65,10 @@
             "terminal": [
                 "kitty"
             ]
+        },
+        "logo": "caelestia",
+        "idle": {
+            "timeouts": [600]
         }
     }
 }
